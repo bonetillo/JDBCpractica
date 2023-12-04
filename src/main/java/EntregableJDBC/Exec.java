@@ -24,7 +24,7 @@ public class Exec {
         consultas c = new consultas();
 
         c.crearTablas();
-
+        System.out.println("hola");
         int opcion = 0;
 
         while (opcion != 8) {
